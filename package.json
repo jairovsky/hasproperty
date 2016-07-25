@@ -1,0 +1,15 @@
+{
+  "name": "hasproperty",
+  "version": "0.0.1",
+  "description": "multilevel Object.hasOwnProperty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hasOwnProperty",
+    "utils"
+  ],
+  "author": "Jairo Santos <jairosantos08@gmail.com>",
+  "license": "MIT"
+}
