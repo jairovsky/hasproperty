@@ -21,7 +21,7 @@
       return true;
     }
 
-    if (haystack.hasOwnProperty(parts[0])) {
+    if (typeof haystack[parts[0]] !== 'undefined') {
       return recur(haystack[parts[0]], parts.slice(1));
     }
 
