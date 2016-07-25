@@ -1,8 +1,14 @@
-# Multilevel Object.hasOwnProperty
+# Multilevel `Object.hasOwnProperty`
+
+### Installation
+
+`npm install --save hasproperty`
 
 ### Usage
 
 ```js
+var hasProperty = require('hasproperty');
+
 var person = {
   name: 'John Doe',
   age: 32,
@@ -22,8 +28,6 @@ var person = {
     }
   ]
 };
-
-var hasProperty = require('hasproperty');
 
 console.log(hasProperty('name', person)); // true
 
